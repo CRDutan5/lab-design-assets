@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bungee+Spice&family=Oswald&family=Outfit&family=Roboto:wght@500&family=Ubuntu&display=swap');
+
+
+
+:root {
+    --rich-black: #0d1b2aff;
+    --oxford-blue: #1b263bff;
+    --yinmn-blue: #415a77ff;
+    --silver-lake-blue: #778da9ff;
+    --platinum: #e0e1ddff;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Agablumo', 'Ubuntu';
+}
+
+.landing-page {
+    background-color: var(--silver-lake-blue);
+    width: 100%;
+    height: 100%;
+}
+
+.projects-section {
+    background-color: var(--platinum);
+    width: 100%;
+    height: 100%;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#personal-pic {
+    height: 200px;
+}
+
+.intro-writing {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.intro-image {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
+
+
+
+/* .landing-page {
+    background-color: var(--yinmn-blue);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+}
+
+.projects-section {
+    background-color: var(--silver-lake-blue);
+    width: 100%;
+    height: 100%;
+}
+.intro {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro p, .intro h1{
+    grid-column: 1/2;
+    margin: 0;
+}
+.intro p {
+    padding-right: 30px;
+} */
